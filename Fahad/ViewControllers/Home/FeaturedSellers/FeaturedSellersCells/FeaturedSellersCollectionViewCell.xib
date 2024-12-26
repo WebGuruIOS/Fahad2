@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FeaturedSellersCollectionViewCell" customModule="Fahad" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="314" height="41"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="314" height="41"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SEi-kz-9fx">
+                        <rect key="frame" x="7" y="8" width="80" height="28"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0056_rgb_MNET2-RGB-bttm-1-1-799x799-483x451 1" translatesAutoresizingMaskIntoConstraints="NO" id="lF4-dx-Y8S">
+                                <rect key="frame" x="3" y="6.5" width="25" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="9pj-Ww-3Fw"/>
+                                    <constraint firstAttribute="height" constant="15" id="Z98-cE-fYw"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Circle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SMf-bh-HHE">
+                                <rect key="frame" x="33" y="7" width="25.5" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="vdb-BQ-Gt4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274509803915" green="0.96862745098039216" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="SMf-bh-HHE" firstAttribute="leading" secondItem="lF4-dx-Y8S" secondAttribute="trailing" constant="5" id="6pF-M4-Y63"/>
+                            <constraint firstItem="lF4-dx-Y8S" firstAttribute="top" secondItem="SEi-kz-9fx" secondAttribute="top" constant="6.5" id="A0b-P6-ni5"/>
+                            <constraint firstAttribute="height" constant="28" id="YD7-6R-rxK"/>
+                            <constraint firstAttribute="width" constant="80" id="boi-C5-h5A"/>
+                            <constraint firstItem="SMf-bh-HHE" firstAttribute="top" secondItem="SEi-kz-9fx" secondAttribute="top" constant="7" id="lec-qm-sJ7"/>
+                            <constraint firstItem="lF4-dx-Y8S" firstAttribute="leading" secondItem="SEi-kz-9fx" secondAttribute="leading" constant="3" id="uan-hJ-PsS"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="SEi-kz-9fx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="7" id="3Rg-VG-Dte"/>
+                <constraint firstItem="SEi-kz-9fx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="PYD-bc-UWs"/>
+            </constraints>
+            <size key="customSize" width="314" height="41"/>
+            <connections>
+                <outlet property="imgView" destination="lF4-dx-Y8S" id="kjQ-Ps-OF2"/>
+                <outlet property="mainview" destination="SEi-kz-9fx" id="oUL-LQ-GF1"/>
+                <outlet property="nameLabel" destination="SMf-bh-HHE" id="0JX-7l-ZKy"/>
+            </connections>
+            <point key="canvasLocation" x="298.55072463768118" y="63.28125"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="0056_rgb_MNET2-RGB-bttm-1-1-799x799-483x451 1" width="132" height="124"/>
+    </resources>
+</document>

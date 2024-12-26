@@ -1,0 +1,6 @@
+framework module Pods_Fahad {
+  umbrella header "Pods-Fahad-umbrella.h"
+
+  export *
+  module * { export * }
+}

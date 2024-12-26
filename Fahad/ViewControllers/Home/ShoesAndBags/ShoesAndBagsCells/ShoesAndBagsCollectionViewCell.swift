@@ -1,0 +1,19 @@
+//
+//  ShoesAndBagsCollectionViewCell.swift
+//  Fahad
+//
+//  Created by Kondalu on 18/08/21.
+//
+
+import UIKit
+
+class ShoesAndBagsCollectionViewCell: UICollectionViewCell {
+
+    @IBOutlet weak var favButton: UIButton!
+    @IBOutlet weak var cartButton: UIButton!
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+
+}
